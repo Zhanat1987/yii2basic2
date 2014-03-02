@@ -91,4 +91,9 @@ class SiteController extends Controller
 	{
 		return $this->render('about');
 	}
+
+    public function actionPhpInfo()
+    {
+        return $this->render('php-info');
+    }
 }
